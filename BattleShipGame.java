@@ -6,8 +6,9 @@ public class BattleShipGame {
 	{
 		Game g  =new Game();
 		g.setHumanShips();
+		g.battle();
 		
-		//g.printBoard();
+		g.printBoard();
 	}
 
 }
